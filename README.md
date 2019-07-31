@@ -1,5 +1,6 @@
 passport-parse
 ==============
+this version is work with latest parse server 
 
 A passport strategy for those of you out there using Parse.com and nodejs (passport) for authentication :)
 
