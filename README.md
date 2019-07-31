@@ -42,7 +42,7 @@ Then add the strategy to passport
 And authenticate the user like so : 
 
 	passport.authenticate('parse',function(err, user, info) {
-	    if (err) {
+	    if (user.err) {
 	    	return res.status(400).json({payload : {error: info}, message : info.message});
 	 	}
 

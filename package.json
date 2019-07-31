@@ -1,6 +1,6 @@
 {
   "name": "async-passport-parse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Passport Strategy for Parse.com",
   "main": "lib/index.js",
   "scripts": {
